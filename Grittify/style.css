@@ -1,0 +1,150 @@
+/*NAVBAR*/
+nav {
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(216, 215, 235);
+    padding: 35px;
+    z-index: 2;
+  }
+  
+ nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {   
+    font-size: 20px;
+    margin: 0px 30px;
+  }
+  
+ nav a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 15px;
+    font-family: cursive;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 20px;
+  }
+
+  nav a:hover{
+    transition: 1s;
+  }
+  
+  nav ul li:hover{
+    transform: scale(1.04);
+    transition: 1s;
+  }
+
+  /*Banner*/
+
+  #div1{
+    margin-top: 77px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+    
+  }
+
+  #div1 h3{
+    letter-spacing: 2px;
+    font-size: 35px;
+    padding-top: 80px ;
+  }
+
+ #div1 p{
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+  color: #ffffff;
+  width: 100%;
+  font-size: 20px;
+  }
+
+  #img1{
+    position: relative;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    z-index: 1;
+    
+  }
+
+  .btns{
+    margin: 0 2px;
+  }
+
+  /*HIDE AND GO*/
+
+  #hide-and-go{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #4C4C4C;
+    padding: 20px;
+    flex-direction: column;
+   display: flex;
+  }
+
+
+  #hide-and-goIMG img{
+    width: 100%;
+    
+
+  }
+
+  #hide-and-goIMG{
+    border: 3px solid gold;
+    width: 15%;
+  }
+
+  #hide-and-go h2{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2.5;
+  }
+
+  #hide-and-go p{
+    font-size: 20px;
+  }
+
+  #gritter h1{
+    font-size: 100px;
+    color: blue;
+  }
+
+  #gritter p{
+    font-size: 20px;
+    font-weight: 900;
+
+  }
+
+  #gritter{
+    padding: 30px;
+  }
+
+  #comments img{
+    width: 4%;
+    
+  }
+
+  #comments li{
+    list-style-type: none;
+    display: flex;
+    align-items: center; 
+    }
+
+  #comments ul li p{
+    font-size: 15px;
+  }
+
